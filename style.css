@@ -140,3 +140,7 @@ body {
     text-align: left;
     vertical-align: top
 }
+::-webkit-scrollbar{
+    display: none;
+    background-color: transparent;
+}
