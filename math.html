@@ -1,0 +1,214 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap"
+        rel="stylesheet">
+</head>
+
+<body>
+    <div class="headerContainer">
+        <h1 class="headerTitle">
+            Math
+        </h1>
+    </div>
+    <div class="exWrapper">
+        <div class="exContainer">
+            <div class="exTitleContainer">
+                <h2 class="exTitle">Exercice du 03/05/2024</h2>
+            </div>
+            <div class="exContentContainer">
+                <div class="questionContainer">
+                    <div class="questionTitleContainer">
+                        <h4 class="questionTitle">
+                            1. <br> L'administrateur de la plateforme a traduit les conditions pour qu'une vidéo soit
+                            mise
+                            sur la page d'accueil par l'expression booléenne = ab + ac + <span
+                                style="text-decoration: overline;">b</span>c + <span
+                                style="text-decoration: overline;">a</span>b. Justifier
+                            chacun des termes de cette somme.
+                        </h4>
+                    </div>
+                    <!-- <span class="miniExSeparator"></span> -->
+                    <div class="questionAnswerContainer">
+                        <div class="questionAnswerTitle">
+                            <h4>Cette expression peut se traduire par : </h4>
+
+                        </div>
+                        <div class="questionAnswerContent">
+                            <p class="questionAnswer">
+                                Une video sera mise sur la page d'acceuil si : la vidéo a obtenu la note de 5 et, que la
+                                vidéo comptabilise au moins 200 vues ou que la vidéo est récente, ou que la vidéo soit
+                                récente et qu'elle comptabilise strictement moins que 200 vues, ou que la vidéo n'ai pas
+                                la note de 5 étoiles mais qu'elle comptabilise plus de 200 vues
+                            </p>
+                        </div>
+                    </div>
+
+                </div>
+                <!-- <span class="bigExSeparator"></span> -->
+                <div class="questionContainer">
+                    <div class="questionTitleContainer">
+                        <h4 class="questionTitle">2. <br> a) Représenter l'expression dans un diagramme de Karnaugh<h4>
+                    </div>
+                    <!-- <span class="miniExSeparator"></span> -->
+                    <div class="questionAnswerContainer">
+                        <div class="questionAnswerTitle">
+                            <h4>Cette expression peut se traduire par : </h4>
+
+                        </div>
+                        <div class="questionAnswerContent">
+                            <p class="questionAnswer">
+
+                            <table class="tg">
+                                <thead>
+                                    <tr>
+                                        <th class="tg-0lax">a/bc</th>
+                                        <th class="tg-0lax"><span style="text-decoration: overline;">b</span> <span
+                                                style="text-decoration: overline;">c</span></th>
+                                        <th class="tg-0lax"><span style="text-decoration: overline;">b</span> c</th>
+                                        <th class="tg-0lax">b c</th>
+                                        <th class="tg-0lax">b <span style="text-decoration: overline;">c</span></th>
+                                    </tr>
+                                </thead>
+                                <tbody>
+                                    <tr>
+                                        <td class="tg-0lax"><span style="text-decoration: overline;">a</span></td>
+                                        <td class="tg-0lax">0</td>
+                                        <td class="tg-0lax">1</td>
+                                        <td class="tg-0lax">1</td>
+                                        <td class="tg-0lax">1</td>
+                                    </tr>
+                                    <tr>
+                                        <td class="tg-0lax">a</td>
+                                        <td class="tg-0lax">0</td>
+                                        <td class="tg-0lax">1</td>
+                                        <td class="tg-0lax">1</td>
+                                        <td class="tg-0lax">1</td>
+                                    </tr>
+                                </tbody>
+                            </table>
+                            </p>
+                        </div>
+                    </div>
+
+                </div>
+                <div class="questionContainer">
+                    <div class="questionTitleContainer">
+                        <h4 class="questionTitle">
+                            2. <br> b) En deduire une expression simplifiée de E sous la forme d'une somme de deux
+                            termes</h4>
+                    </div>
+
+                    <div class="questionAnswerContainer">
+                        <div class="questionAnswerTitle">
+                            <h4 class="questionAnswerTitle">
+                                Expression simplifiée de E :
+                            </h4>
+
+                        </div>
+                        <div class="questionAnswerContent">
+                            <p class="questionAnswer">
+                                E = c + b
+                            </p>
+                        </div>
+                    </div>
+
+                </div>
+                <div class="questionContainer">
+                    <div class="questionTitleContainer">
+                        <h4 class="questionTitle">
+                            2. <br> c) Interpréter cette expression simplifiée de E dans le contextede l'exercice 
+                        </h4>
+                    </div>
+
+                    <div class="questionAnswerContainer">
+                        <div class="questionAnswerTitle">
+                            <h4 class="questionAnswerTitle">
+                                L'expression se traduit maintenant par :
+                            </h4>
+
+                        </div>
+                        <div class="questionAnswerContent">
+                            <p class="questionAnswer">
+                                Une vidéo rempli les conditions pour être sur la page d'accueil lorsque qu'elle comptabilise au moins 200 vues ou que la vidéo est recente.
+                            </p>
+
+                        </div>
+                    </div>
+
+                </div>
+                <div class="questionContainer">
+                    <div class="questionTitleContainer">
+                        <h4 class="questionTitle">
+                            3. <br>Une vidéo qui n'est pas récente, qui n'a pas obtenu la note 5 et qui comptabilise un
+                            nombre de vues strictement inférieur à 200 sera-t-elle mise sur la page d'accueil ? 
+                        </h4>
+                    </div>
+
+                    <div class="questionAnswerContainer">
+                        <div class="questionAnswerTitle">
+                            <h4 class="questionAnswerTitle">
+                                Cette video remplit-elle les conditions :
+                            </h4>
+
+                        </div>
+                        <div class="questionAnswerContent">
+                            <p class="questionAnswer">
+                                La vidéo n'est pas récente et ne comptabilise pas plus de 200 vues, elle ne remplit donc pas le conditions pour apparaître sur la page d'accueil
+                            </p>
+
+                        </div>
+                    </div>
+
+                </div>
+                <div class="questionContainer">
+                    <div class="questionTitleContainer">
+                        <h4 class="questionTitle">
+                            4. <br>Donner une expression de à l'aide des variables booléennes précédemment
+                            définies. En déduire une définition des vidéos qui ne seront pas mises sur la page
+                            d'accueil. 
+                        </h4>
+                    </div>
+
+                    <div class="questionAnswerContainer">
+                        <div class="questionAnswerTitle">
+                            <h4 class="questionAnswerTitle">
+                                L'expression qui indique qu'une vidéo ne sera pas mise sur la page d'accueil est donc : 
+                                 
+                            </h4>
+
+                        </div>
+                        <div class="questionAnswerContent">
+                            <p class="questionAnswer">
+                                <span style="text-decoration: overline;">E</span> = <span style="text-decoration: overline;">b</span> . <span style="text-decoration: overline;">c</span>
+                            </p>
+
+                        </div>
+                        <div class="questionAnswerTitle">
+                            <h4 class="questionAnswerTitle">
+                                Cette expression se traduit par :                                 
+                            </h4>
+
+                        </div>
+                        <div class="questionAnswerContent">
+                            <p class="questionAnswer">
+                                Une vidéo ne sera pas sur la page d'accueil lorsque la vidéo comptabilise moins de 200 vues <span style="font-weight: 700;">ET</span> n'est pas récente
+                            </p>
+
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>

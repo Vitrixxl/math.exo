@@ -1,0 +1,142 @@
+body {
+    font-family: "Montserrat", sans-serif;
+    padding: 0;
+    margin: 0;
+}
+
+.headerContainer {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: auto;
+    background-color: #484349;
+}
+
+.headerTitle {
+    color: #F7F0F0;
+}
+
+.exWrapper {
+    width: 100%;
+}
+
+.exContainer {
+    width: 100%;
+
+}
+
+.exTitleContainer {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #18A999;
+}
+
+.exTitle {
+    color: #484349;
+}
+
+.exContentContainer {
+    background-color: #F7F0F0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+
+.questionContainer {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    /* padding: 1rem 4rem; */
+    box-sizing: border-box;
+    /* gap: 1rem; */
+}
+
+.questionTitleContainer {
+    /* padding: 2rem; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #8AF3FF;
+    width: 100%;
+    padding: 2rem;
+    box-sizing: border-box;
+}
+
+.questionTitle {
+    max-width: 600px;
+    line-height: 2rem;
+    margin-inline: auto;
+    text-wrap: balance;
+    text-align: center;
+
+}
+
+.miniExSeparator {
+    width: 60%;
+    height: 2px;
+    background-color: #484349;
+    display: block;
+
+}
+
+.questionAnswerContainer {
+    width: 100%;
+    padding: 2rem 4rem;
+    box-sizing: border-box;
+}
+
+.questionAnswerTitle {}
+
+.questionAnswerContent {
+    padding: 0 2rem;
+}
+
+.bigExSeparator {
+    width: 80%;
+    height: 2px;
+    background-color: #484349;
+    display: block;
+}
+
+
+
+.tg {
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+
+.tg td {
+    border-color: black;
+    border-style: solid;
+    border-width: 1px;
+    font-family: Arial, sans-serif;
+    font-size: 14px;
+    overflow: hidden;
+    padding: 10px 5px;
+    word-break: normal;
+    min-width: 50px;
+
+}
+
+.tg th {
+    border-color: black;
+    border-style: solid;
+    border-width: 1px;
+    font-family: Arial, sans-serif;
+    font-size: 14px;
+    font-weight: normal;
+    overflow: hidden;
+    padding: 10px 5px;
+    word-break: normal;
+}
+
+.tg .tg-0lax {
+    text-align: left;
+    vertical-align: top
+}
